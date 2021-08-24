@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .avatar {
+            vertical-align: middle;
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            }
+    </style>
+    <title>Latihan FEWDB Hacktiv8 </title>
+</head>
+<body>
+    <img src="fotoprofile.jpeg" class="avatar">
+    <h1>Biography</h1>
+    <hr>
+    <!-- Perkenalan Singkat -->
+    <p>Hai, <br> Nama saya <b>Johan Hartanto</b>, biasa di-panggil <em>Joh/Johan</em>. Mahasiswa Teknik Informatika dari Universitas Tarumanagara, dan saat ini sedang menjalani semester 7. Saya memiliki latar belakang pemograman dan telah belajar beberapa bahasa pemograman. Bahasa pertama yang saya mengerti adalah C++, dilanjutkan dengan Java, Python dan terkahir Javascript. Alasan saya ingin belajar pemograman karena prospek lapangan kerja sebagai IT Dev di Indonesia sangat besar. Bukan hanya di Indonesia tetapi bisa hingga luat negeri apabila menguasi bahasa Internasional. Tujuan Saya setelah menyelesaikan program ini, untuk mengetahui kemampuan saya sebagai FrontEnd Web dan juga untuk memperdalam ilmu saya dalam dunia Front End ini. Tujuan selanjutnya yakni untuk mendapatkan pekerjaan idaman saya, yakni sebagai FrontEnd Developer di masa mendatang.</p>
+
+    <!-- Hobi dan minat -->
+    <h2>Hobby & Interest</h2>
+    <hr>
+    <p><b>Hobby</b></p>
+    <ul>
+        <li>
+            Olahraga
+        </li>
+        <li>
+            Bermain Game
+        </li>
+        <li>
+            Mendengarkan Musik
+        </li>
+    </ul>
+
+    <p><b>Interest</b></p>
+    <hr>
+    <ol>
+        <li>
+            FrontEnd Developer
+        </li>
+        <li>
+            UI/UX
+        </li>
+    </ol>
+
+    <!-- image -->
+    <img src="2.jpg" >
+    <img src="3.jpg" >
+    <img src="4.jpg" >
+
+
+    <!-- Link External -->
+    <hr>
+    <h2> Link External </h2>
+    <a href="https://github.com/johanhar88"> Github </a>
+
+
+</body>
+
+</html>

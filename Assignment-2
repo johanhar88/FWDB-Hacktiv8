@@ -1,0 +1,49 @@
+// TUGAS 1
+var password = prompt("Masukkan password anda! : ");
+
+if (password == 'abcd123@') {
+    alert("Password anda benar!")
+} else {
+    window.location = 'http://www.google.com';
+}
+
+// TUGAS 2
+var angka = prompt("Masukkan angka anda!(1-100) :");
+
+if (angka <= 100 && angka >= 80) {
+    alert('Your Grade is A');
+} else if (angka >= 60 && angka <= 79){
+    alert('Your Grade is B');
+} else if (angka >= 40 && angka <= 59){
+    alert('Your Grade is C');
+} else if (angka <= 39 && angka >= 0) {
+    alert('Your Grade is D');
+} else {
+    alert('Cannot calculate your Grade');
+}
+
+//TUGAS 3
+var name = prompt("Masukkan Nama Anda : ");
+var gender = prompt("Masukkan Gender Anda (pria/wanita) : ");
+
+if (gender == 'wanita') {
+    alert("Selamat Datang, Mrs. " + name);
+    let minuman = prompt("Masukkan Minuman yang ingin dipesan :");
+
+    if ( minuman != 'jus') {
+        alert("Siap! Mrs." + name + " " + minuman + " segera datang!");
+    } else {
+        alert( "Mohon maaf jus tidak tersedia!")
+    }
+} else if (gender == 'pria') {
+    alert("Selamat Datang, Mr. " + name);
+    let minuman = prompt("Masukkan Minuman yang ingin dipesan :");
+
+    if ( minuman != 'jus') {
+        alert("Siap! Mrs." + name + " " + minuman + " segera datang!");
+    } else {
+        alert( "Mohon maaf jus tidak tersedia!")
+    }
+} else {
+    alert("Gender tidak diketahui!")
+}

@@ -1,0 +1,21 @@
+//TUGAS 1
+let recipe = ["Didihkan air dlm panci,beri sedikit garam dan 1 sdm minyak goreng,rebus spaghetti hingga empuk,krg lebih 15 menit", "Panaskan butter,tumis bawang putih dan bawang bombay hingga harum,masukan smoked beef aduk rata,tuang susu cair dan keju aduk rata,lalu beri garam,lada,peterseli,oregano aduk rata test rasanya yah jika sdh pas masukan spaghetti aduk rata lalu tuang larutan maizena aduk rata,sy ga pake peterseli krn ga punya", "Terakhir kocok telur dan campur dgn sedikit susu cair ambil dr bahan pisahin sedikit untuk kocokan telur,sedikit aja yah...masukan kocokan telur aduk2 lalu angkat dan sajikan 😊 telur jgn terlalu matang yah nanti krg creamy"];
+
+console.log(recipe[0]); // Akses step pertama.
+
+var last_step = recipe[2];
+console.log(last_step); // Step terakhir dari resep.
+
+//TUGAS 2
+let my_bucket_list = ["Pergi ke Bali", "Pergi ke Singapore"];
+
+//push
+my_bucket_list.push("Masak Sushi");
+//unshift
+my_bucket_list.unshift("Pulang Kampung ke Medan");
+//pop
+my_bucket_list.pop();
+//shift
+my_bucket_list.shift();
+
+console.log(my_bucket_list);
